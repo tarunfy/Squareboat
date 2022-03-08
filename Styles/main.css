@@ -20,7 +20,7 @@ nav {
 
 nav .nav-content {
   height: 100%;
-  width: 100%;
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@ nav .nav-content {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 9rem;
+  padding: 0 15px;
 }
 
 nav .nav-content .logo {
@@ -173,9 +173,9 @@ nav .nav-content ul li .contact-link:hover {
       -ms-flex-pack: right;
           justify-content: right;
   padding-top: 5.8rem;
-  padding-right: 8rem;
+  padding-right: 5.8rem;
   padding-bottom: 6rem;
-  padding-left: 8rem;
+  padding-left: 5.8rem;
 }
 
 #home .home-content .hleft {
