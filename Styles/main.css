@@ -711,6 +711,81 @@ nav .nav-content ul li .contact-link:hover {
   background: #1385ff;
 }
 
+.bg-blue {
+  height: 120vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #eef4fd), to(#f7fafe));
+  background: linear-gradient(0deg, #eef4fd 60%, #f7fafe);
+  -webkit-transform: skewY(-9deg);
+          transform: skewY(-9deg);
+  z-index: -1;
+  position: absolute;
+  margin-top: -10.5rem;
+}
+
+#client {
+  height: 120vh;
+  width: 100%;
+  position: relative;
+}
+
+#client h1 {
+  font-size: 5.9rem;
+  text-align: center;
+  color: #cde4fc;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 5rem 0;
+}
+
+#client .clients-container {
+  text-align: center;
+}
+
+#client .clients-container h2 {
+  color: #3396ff;
+  font-family: "circularM";
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+#client .clients-container p {
+  font-family: "circularL";
+  font-size: 1.2rem;
+  margin: 1.5rem 0 4rem 0;
+}
+
+#client .clients-container .logos {
+  margin: 0 10rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  height: 20rem;
+  row-gap: 10px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding: 1rem;
+}
+
+#client .clients-container .logos div {
+  padding: 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#client .clients-container .logos div img {
+  height: 50px;
+}
+
 @font-face {
   font-family: "circularL";
   src: url("../Media/Fonts/Circular/CircularStd-Light.otf");
@@ -737,7 +812,7 @@ nav .nav-content ul li .contact-link:hover {
 body {
   color: #0d264c;
   font-family: "circularL";
-  overflow-X: hidden;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
