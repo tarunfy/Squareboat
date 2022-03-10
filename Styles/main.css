@@ -517,7 +517,8 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #ourwork .work-content .work-tiles .work-tile1 p {
-  max-width: 80%;
+  max-width: 95%;
+  font-family: "circularM";
 }
 
 #ourwork .work-content .work-tiles .work-tile1 button {
@@ -553,7 +554,8 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #ourwork .work-content .work-tiles .work-tile2 p {
-  max-width: 80%;
+  max-width: 95%;
+  font-family: "circularM";
 }
 
 #ourwork .work-content .work-tiles .work-tile2 button {
@@ -584,7 +586,8 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #ourwork .work-content .work-tiles .work-tile3 p {
-  max-width: 80%;
+  max-width: 95%;
+  font-family: "circularM";
 }
 
 #ourwork .work-content .work-tiles .work-tile3 button {
@@ -609,7 +612,9 @@ nav .nav-content ul li .contact-link:hover {
   margin: 0;
 }
 
-#ourwork .work-content .work-tiles .work-tile1, #ourwork .work-content .work-tiles .work-tile2, #ourwork .work-content .work-tiles .work-tile3 {
+#ourwork .work-content .work-tiles .work-tile1,
+#ourwork .work-content .work-tiles .work-tile2,
+#ourwork .work-content .work-tiles .work-tile3 {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -634,7 +639,8 @@ nav .nav-content ul li .contact-link:hover {
   transition: all 0.3s ease-in-out;
 }
 
-#ourwork .work-content .work-tiles .work-tile1:hover, #ourwork .work-content .work-tiles .work-tile3:hover {
+#ourwork .work-content .work-tiles .work-tile1:hover,
+#ourwork .work-content .work-tiles .work-tile3:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
   -webkit-transform: translateY(-7px);
@@ -784,6 +790,11 @@ nav .nav-content ul li .contact-link:hover {
 
 #client .clients-container .logos div img {
   height: 50px;
+}
+
+#reviews {
+  width: 100%;
+  height: 100vh;
 }
 
 @font-face {
