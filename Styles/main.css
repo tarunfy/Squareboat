@@ -392,6 +392,7 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #captain .captain-content .Cleft p {
+  font-family: "circularL";
   font-size: 1.1rem;
   line-height: 30px;
   max-width: 80%;
@@ -644,15 +645,15 @@ nav .nav-content ul li .contact-link:hover {
 
 #captain .work-content .work-tiles .work-tile1:hover,
 #captain .work-content .work-tiles .work-tile3:hover {
-  -webkit-box-shadow: 0 9px 37px rgba(13, 38, 76, 0.123);
-          box-shadow: 0 9px 37px rgba(13, 38, 76, 0.123);
+  -webkit-box-shadow: 0 9px 37px rgba(13, 38, 76, 0.153);
+          box-shadow: 0 9px 37px rgba(13, 38, 76, 0.153);
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
 }
 
 #captain .work-content .work-tiles .work-tile2:hover {
-  -webkit-box-shadow: 0 9px 37px rgba(13, 38, 76, 0.123);
-          box-shadow: 0 9px 37px rgba(13, 38, 76, 0.123);
+  -webkit-box-shadow: 0 9px 37px rgba(13, 38, 76, 0.153);
+          box-shadow: 0 9px 37px rgba(13, 38, 76, 0.153);
   -webkit-transform: translateY(23px);
           transform: translateY(23px);
 }
