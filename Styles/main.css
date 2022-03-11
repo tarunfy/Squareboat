@@ -865,10 +865,28 @@ nav .nav-content ul li .contact-link:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 7rem;
+  background-image: url(../Media/Images/Partner.svg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #contact .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact .contact-content .text {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,28 +894,28 @@ nav .nav-content ul li .contact-link:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 85%;
-  height: 100%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-#contact .contact-content h2 {
+#contact .contact-content .text h2 {
   color: #1385ff;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  max-width: 80%;
+  line-height: 50px;
+}
+
+#contact .contact-content .text p {
   max-width: 50%;
+  font-size: 1.3rem;
+  margin: 1rem 0rem;
 }
 
-#contact .contact-content p {
-  max-width: 33%;
-  opacity: 0.9;
-}
-
-#contact .contact-content button {
+#contact .contact-content .text button {
   padding: 13px 15px;
   font-size: 1rem;
   background: #3396ff;
@@ -912,7 +930,7 @@ nav .nav-content ul li .contact-link:hover {
   font-family: "circularM";
 }
 
-#contact .contact-content button:hover {
+#contact .contact-content .text button:hover {
   background: #1385ff;
 }
 
