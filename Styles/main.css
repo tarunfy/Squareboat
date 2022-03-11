@@ -911,10 +911,11 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #contact .contact-content .text p {
-  max-width: 50%;
-  font-size: 1.3rem;
+  max-width: 60%;
+  font-size: 1.2rem;
   margin: 1rem 0rem;
-  font-family: "circularL";
+  font-family: "circularM";
+  opacity: 0.6;
 }
 
 #contact .contact-content .text button {
@@ -1128,6 +1129,139 @@ nav .nav-content ul li .contact-link:hover {
   font-size: 1rem;
   font-family: "circularL";
   font-weight: 800;
+}
+
+#footer {
+  background-color: #2d94f3;
+  height: 50vh;
+  width: 100%;
+  padding: 3rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#footer .clmn-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#footer .clmn-1 .top {
+  margin-bottom: 1.7rem;
+}
+
+#footer .clmn-1 .top p {
+  color: #93c6f7;
+}
+
+#footer .clmn-2 ul,
+#footer .clmn-2 ul,
+#footer .clmn-3 ul,
+#footer .clmn-4 ul {
+  list-style: none;
+}
+
+#footer .clmn-2 ul li,
+#footer .clmn-2 ul li,
+#footer .clmn-3 ul li,
+#footer .clmn-4 ul li {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  font-weight: 800;
+  font-family: "circularL";
+}
+
+#footer .clmn-2 ul li:hover,
+#footer .clmn-2 ul li:hover,
+#footer .clmn-3 ul li:hover,
+#footer .clmn-4 ul li:hover {
+  color: white;
+}
+
+#footer .clmn-5 .top {
+  margin-bottom: 1.3rem;
+}
+
+#footer .clmn-5 .top h1 {
+  color: white;
+  font-family: "circularM";
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+#footer .clmn-5 .top ul {
+  list-style: none;
+}
+
+#footer .clmn-5 .top ul li {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  font-weight: 800;
+  font-family: "circularL";
+}
+
+#footer .clmn-5 .top ul li:hover {
+  color: white;
+}
+
+#footer .clmn-5 .bottom h1 {
+  color: white;
+  font-family: "circularM";
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+#footer .clmn-5 .bottom ul {
+  list-style: none;
+}
+
+#footer .clmn-5 .bottom ul li {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+#footer .clmn-5 .bottom ul li img {
+  height: 20px;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+#footer .clmn-5 .bottom ul li p {
+  font-size: 1.1rem;
+  font-family: "circularL";
+  color: white;
 }
 
 @font-face {
