@@ -1,5 +1,5 @@
 .swiper {
-  height: 18rem !important;
+  height: 20rem !important;
   width: 100% !important;
   display: flex;
   justify-content: center;
@@ -33,4 +33,37 @@
 .swiper {
   margin-left: auto;
   margin-right: auto;
+}
+
+.swiper-pagination-bullet {
+  margin: 0rem 10px !important;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.swiper-pagination-bullet:nth-child(odd) {
+  animation: loading 0.6s 0.2s linear infinite;
+}
+.swiper-pagination-bullet:nth-child(even) {
+  animation: loading 0.6s 0.1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: translate(0);
+    background-color: #a6d1fa;
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translate(0);
+    background-color: #a6d1fa;
+  }
+  75% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
