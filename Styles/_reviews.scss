@@ -22,10 +22,14 @@
   .swiper-container {
     width: 100%;
     padding: 0rem 10rem;
-
     .swiper {
+      background-image: url(../Media/Images/pattern.svg);
+      object-fit: cover;
+      background-size: cover;
+      background-position: bottom;
       .swiper-wrapper {
         .swiper-slide {
+          background-color: white;
           padding: 1rem 3rem;
           display: flex;
           flex-direction: column;

@@ -851,7 +851,16 @@ nav .nav-content ul li .contact-link:hover {
   padding: 0rem 10rem;
 }
 
+#reviews .swiper-container .swiper {
+  background-image: url(../Media/Images/pattern.svg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: bottom;
+}
+
 #reviews .swiper-container .swiper .swiper-wrapper .swiper-slide {
+  background-color: white;
   padding: 1rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
