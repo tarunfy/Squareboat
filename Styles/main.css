@@ -109,6 +109,7 @@ nav .nav-content ul li a {
           justify-content: center;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-family: "circularM";
 }
 
 nav .nav-content ul li a:hover {
