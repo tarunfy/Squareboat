@@ -938,7 +938,7 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 .bg-blue {
-  height: 140vh;
+  height: 120vh;
   width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #eef4fd), to(#f7fafe));
   background: linear-gradient(0deg, #eef4fd 60%, #f7fafe);
@@ -950,7 +950,7 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 #client {
-  height: 120vh;
+  height: 110vh;
   width: 100%;
   position: relative;
 }
