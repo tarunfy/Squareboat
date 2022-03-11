@@ -171,22 +171,87 @@
 
     <!-- Reviews Section -->
     <section id="reviews">
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
+        <h2>Real words by real people</h2>
+        <p>It's great to get a pat on your back for a job well done. See <br> what our clients have to say about us.</p>
+        <div class="swiper-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                        <div class="top">
+                            <img src="./Media/Images/1.jpeg" alt="person">
+                            <a href="https://in.linkedin.com/in/radhika-binani" target="_blank">
+                                  Radhika Binani 
+                                  <span>Chief Product Officer&nbsp;@PaisaBazaar</span> 
+                            </a>
+                        </div>
+                        <div class="bottom">
+                            <p>“It was a pleasure to work with Square Boat, Gaurav Gupta's organisation. Firstly the passion was very evident. The quality of people in his team are very high caliber. The level of ownership from start to finish was tremendous.”</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/2.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/anirudh-gupta-59470314" target="_blank">
+                              Anirudh Gupta 
+                              <span>Cofounder&nbsp;@Tripoto</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“He is punctual, extremely professional and competent- a combination of skills that are rare to find in any technical consultant”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/3.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/annu-talreja-4b28316" target="_blank">
+                            Annu Talreja 
+                              <span>Founder&nbsp;@OxfordCaps</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“Gaurav is highly skilled in understanding the business requirements and translating them to a Tech product. Would highly recommend Gaurav to anyone who is looking for a long-term trustworthy tech partner”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/5.jpeg" alt="person">
+                        <a href="https://www.linkedin.com/in/taylorsingletary" target="_blank">
+                            Taylor Singletary 
+                              <span>Developer Evangelist&nbsp;@LinkedIn</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“Gaurav would be an asset to any engineering team”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/6.jpeg" alt="person">
+                        <a href="https://in.linkedin.com/in/virenderbisht" target="_blank">
+                            Virender Bisht
+                              <span>VP - Tech&nbsp;@MakeMyTrip</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“I hired Gaurav for lots of reasons, none better than his attitude. He brings a ton of positive energy in the team”</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="top">
+                        <img src="./Media/Images/7.jpeg" alt="person">
+                        <a href="https://www.linkedin.com/in/simplyarun" target="_blank">
+                            Arun Jay
+                              <span>Senior Product Manager&nbsp;@LinkedIn</span> 
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <p>“I have tremendously appreciated his dedication in getting things done. This cheerful young man is a great team player with rock solid application development skills. He is a terrific person to have on any great team”</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
     </section>
 
     <!-- Contact Section  -->
@@ -203,8 +268,8 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
-          spaceBetween: 30,
+          slidesPerView: 2,
+          spaceBetween: 140,
           loop: true,
           autoplay: {
             delay: 3000
@@ -213,10 +278,6 @@
             el: ".swiper-pagination",
             clickable: true
           },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-          }
         });
       </script>
 </body>
