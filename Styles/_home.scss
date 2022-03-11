@@ -39,10 +39,10 @@
         cursor: pointer;
         transition: all 0.2s ease-in-out;
         font-family: "circularM";
-      }
-      button:hover {
-        color: white;
-        background: #3396ff;
+        &:hover {
+          color: white;
+          background: #3396ff;
+        }
       }
     }
     .hright {

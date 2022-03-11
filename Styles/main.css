@@ -14,7 +14,7 @@ nav {
   left: 0;
   width: 100%;
   height: 115px;
-  z-index: 1;
+  z-index: 100;
 }
 
 nav .nav-content {
@@ -122,7 +122,7 @@ nav .nav-content ul li a:hover::after {
 
 nav .nav-content ul li a::after {
   height: 3px;
-  content: '';
+  content: "";
   position: absolute;
   width: 30%;
   background-color: #c2dbff;
@@ -134,7 +134,7 @@ nav .nav-content ul li a::after {
 
 nav .nav-content ul li .contact-link {
   color: #007bff;
-  background-color: #DCE9FB;
+  background-color: #dce9fb;
   border-radius: 3px;
   padding: 8px 20.8px 8px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -718,7 +718,7 @@ nav .nav-content ul li .contact-link:hover {
 }
 
 .bg-blue {
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #eef4fd), to(#f7fafe));
   background: linear-gradient(0deg, #eef4fd 60%, #f7fafe);
@@ -790,6 +790,26 @@ nav .nav-content ul li .contact-link:hover {
 
 #client .clients-container .logos div img {
   height: 50px;
+}
+
+#client .clients-container button {
+  padding: 13px 15px;
+  font-size: 1rem;
+  background: transparent;
+  border: 2px solid #3396ff;
+  color: #3396ff;
+  border-radius: 5px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "circularM";
+}
+
+#client .clients-container button:hover {
+  color: white;
+  background: #3396ff;
 }
 
 #reviews {

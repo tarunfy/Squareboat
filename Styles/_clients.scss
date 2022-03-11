@@ -1,5 +1,5 @@
 .bg-blue {
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   background: linear-gradient(0deg, #eef4fd 60%, #f7fafe);
   transform: skewY(-9deg);
@@ -49,6 +49,23 @@
         img {
           height: 50px;
         }
+      }
+    }
+    button {
+      padding: 13px 15px;
+      font-size: 1rem;
+      background: transparent;
+      border: 2px solid #3396ff;
+      color: #3396ff;
+      border-radius: 5px;
+      margin-top: 30px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      font-family: "circularM";
+      &:hover {
+        color: white;
+        background: #3396ff;
       }
     }
   }
