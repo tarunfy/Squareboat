@@ -27,10 +27,10 @@
   .captain-content {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: auto;
+    align-items: flex-start;
     margin-bottom: 6rem;
-    width: 85%;
+    width: 100%;
+    padding: 0rem 10rem;
     .Cleft {
       height: 100%;
       display: flex;
