@@ -1261,6 +1261,15 @@ nav .nav-content ul li .contact-link:hover {
 #footer .clmn-5 .bottom ul li p {
   font-size: 1.1rem;
   font-family: "circularL";
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  font-weight: 800;
+  font-family: "circularL";
+}
+
+#footer .clmn-5 .bottom ul li p:hover {
   color: white;
 }
 

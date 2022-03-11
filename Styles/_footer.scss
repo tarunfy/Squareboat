@@ -84,7 +84,14 @@
           p {
             font-size: 1.1rem;
             font-family: "circularL";
-            color: white;
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            transition: color 0.1s linear;
+            font-weight: 800;
+            font-family: "circularL";
+            &:hover {
+              color: white;
+            }
           }
         }
       }
