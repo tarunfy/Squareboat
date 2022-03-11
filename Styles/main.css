@@ -303,6 +303,7 @@ nav .nav-content ul li .contact-link:hover {
 #services .services-content .services-tiles p {
   font-size: 1rem;
   max-width: none;
+  font-family: "circularL";
 }
 
 #services .services-content button {
